@@ -143,5 +143,3 @@ CREATE TABLE proveedor_tels (
     CONSTRAINT FK_proveedor_tels_proveedores FOREIGN KEY (id_proveedor)
         REFERENCES proveedores (id_proveedor)
 );
-
-
